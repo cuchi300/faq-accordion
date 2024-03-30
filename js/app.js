@@ -11,9 +11,9 @@ function eventListeners() {
 
             // cambiar imagen de icono mas y menos
             if(imagen.includes('plus')) {
-                e.target.src = '../assets/images/icon-minus.svg';
+                e.target.src = 'assets/images/icon-minus.svg';
             } else{
-                e.target.src = '../assets/images/icon-plus.svg';
+                e.target.src = 'assets/images/icon-plus.svg';
             }
 
             // activa acordion
